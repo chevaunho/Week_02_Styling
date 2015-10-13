@@ -83,8 +83,9 @@ header h2{
   padding-left: 10px;
   padding-right: 10px;
 }
-header .download{
+div .download{
   text-align: center;
+  text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   background-color: #f9e42e;
   font-style: normal;
@@ -93,6 +94,9 @@ header .download{
   color: black;
   border-radius: 4px;
   padding: 8px 20px 8px 20px;
+}
+div a .download{
+
 }
 h3 {
   font-family: 'Open Sans', sans-serif;
@@ -137,7 +141,7 @@ div p {
   background: url(../images/testimonial_bg.jpg) no-repeat;
   background-size: cover;
 }
-.blockquote{
+blockquote {
   text-align: center;
   color: white;
   font-style: italic;
@@ -155,6 +159,7 @@ div p {
   font-size: 18px;
   font-weight: 600;
   font-style: bold;
+  padding-top: 10px;
   padding-bottom: 50px;
 }
 .download-container{
