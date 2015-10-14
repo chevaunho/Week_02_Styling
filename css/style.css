@@ -187,23 +187,28 @@ footer {
 }
 .footer-logo {
   color: #f9e42e;
-  font-style: extrabold;
+  font-weight: 800;
   font-size: 24px;
+  text-align: center;
 }
 .social-icons {
   padding-top: 20px;
   padding-bottom: 20px;
+  text-align: center;
 }
 footer img {
+  text-align: center;
   max-height: 18px;
   padding-right: 15px;
   padding-left: 15px;
 }
 footer p {
+  text-align: center;
   color: white;
   font-size: 9px;
-  font-style: semibold;
+  font-weight: 600;
 }
+
 
 /******************************************
 /* ADDITIONAL STYLES
